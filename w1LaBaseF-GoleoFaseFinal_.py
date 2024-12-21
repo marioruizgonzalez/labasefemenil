@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import time
 
 # Configuración del WebDriver para Firefox
-geckodriver_path = "/Users/marioruiz/Documents/GitHub/labasefemenil/geckodriver"  # Ruta del geckodriver
+geckodriver_path = "C:/Users/ShePlay/Documents/GitHub/labasefemenil/driver/geckodriver.exe"  # Ruta del geckodriver
 service = Service(geckodriver_path)
 driver = webdriver.Firefox(service=service)
 # Navigate to the URL
