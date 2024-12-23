@@ -8,6 +8,7 @@ import time
 
 # Configuración del WebDriver para Firefox
 geckodriver_path = "/Users/marioruiz/Documents/GitHub/labasefemenil/geckodriver"  # Ruta del geckodriver
+output_dir = "/Users/marioruiz/Documents/GitHub/labasefemenil/salidas_mac"
 service = Service(geckodriver_path)
 driver = webdriver.Firefox(service=service)
 
@@ -98,7 +99,7 @@ for temporada in temporadas:
                     num_columns = len(modified_data[0])
                     columns = ['Temporada', 'Torneo'] + [f"Columna_{i}" for i in range(3, num_columns + 1)]
                     df = pd.DataFrame(modified_data, columns=columns)
-                    filename = f"EstHist_{temporada}_{torneo}.csv".replace(" ", "_")
+                    filename = f"1-EstHist_{temporada}_{torneo}.csv".replace(" ", "_")
                     df.to_csv(filename, index=False)
                     print(f"Datos guardados en {filename}")
                     
@@ -107,7 +108,7 @@ for temporada in temporadas:
                     num_columns = len(modified_data[0])
                     columns = ['Temporada', 'Torneo'] + [f"Columna_{i}" for i in range(3, num_columns + 1)]
                     df = pd.DataFrame(modified_data, columns=columns)
-                    filename = f"EstHist_{temporada}_{torneo}_goleo.csv".replace(" ", "_")
+                    filename = f"1-EstHist_{temporada}_{torneo}_goleo.csv".replace(" ", "_")
                     df.to_csv(filename, index=False)
                     print(f"Datos guardados en {filename}")
             except Exception as e:

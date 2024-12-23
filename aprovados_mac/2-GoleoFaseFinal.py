@@ -9,6 +9,7 @@ import csv
 
 # Setup the Selenium WebDriver
 geckodriver_path = "/Users/marioruiz/Documents/GitHub/labasefemenil/geckodriver"
+output_dir = "/Users/marioruiz/Documents/GitHub/labasefemenil/salidas_mac"
 service = Service(geckodriver_path)
 driver = webdriver.Firefox(service=service)
 driver.get("https://www.ligafemenil.mx/cancha/tablas/tablaGoleoCompleta/sp/54eaca472140c4")
@@ -35,12 +36,12 @@ def extract_and_save_data(filename):
         writer.writerows(data)
     print(f"Data extracted and saved to {filename}")
 
-extract_and_save_data('GoleoFaseFinal.csv')
+extract_and_save_data('2-GoleoFaseFinal.csv')
 
 # Wait 10 seconds to observe any changes
 time.sleep(10)
 
 # Re-extract and save data to verify changes
-extract_and_save_data('GoleoFaseFinal2.csv')
+extract_and_save_data('2-GoleoFaseFinal2.csv')
 
 driver.quit()

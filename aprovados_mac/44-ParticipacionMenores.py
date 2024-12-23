@@ -8,6 +8,7 @@ import time
 
 # Configuración del WebDriver para Firefox
 geckodriver_path = "/Users/marioruiz/Documents/GitHub/labasefemenil/geckodriver"  # Ruta del geckodriver
+output_dir = "/Users/marioruiz/Documents/GitHub/labasefemenil/salidas_mac"
 service = Service(geckodriver_path)
 driver = webdriver.Firefox(service=service)
 
@@ -52,7 +53,7 @@ table_data = extract_table()
 if table_data:
     num_columns = len(table_data[0])
     df = pd.DataFrame(table_data)
-    filename = f"ParticipacionMenores.csv".replace(" ", "_")
+    filename = f"44-ParticipacionMenores.csv".replace(" ", "_")
     df.to_csv(filename, index=False)
     print(f"Datos guardados en {filename}")
 

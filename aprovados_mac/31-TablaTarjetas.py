@@ -4,7 +4,7 @@ import pandas as pd
 
 # URL of the API that returns the HTML code
 url = "https://www.ligafemenil.mx/cancha/tablas/tablaTrjt/sp/54eaca472140c4"
-
+output_dir = "/Users/marioruiz/Documents/GitHub/labasefemenil/salidas_mac"
 # Send a GET request to the API
 print(f"Sending GET request to {url}...")
 response = requests.get(url)
@@ -57,6 +57,6 @@ if response.status_code == 200:
         print(df)
         
         # Optionally save each table to a separate CSV file
-        df.to_csv(f"Tabla_{index}_Tarjetas.csv", index=False, encoding="utf-8")
+        df.to_csv(f"31-Tabla_{index}_Tarjetas.csv", index=False, encoding="utf-8")
 else:
     print(f"Failed to fetch data from the API. Status code: {response.status_code}")

@@ -5,7 +5,7 @@ import time
 
 # URL of the API that returns the HTML code
 url = "https://www.ligafemenil.mx/cancha/conteotarjetas/11191/america"
-
+output_dir = "/Users/marioruiz/Documents/GitHub/labasefemenil/salidas_mac"
 # Send a GET request to the API
 print(f"Sending GET request to {url}...")
 response = requests.get(url)
@@ -69,7 +69,7 @@ if response.status_code == 200:
             print(df)
             
             # Optionally save each table to a separate CSV file
-            df.to_csv(f"Tarjetas_{index}_Club.csv", index=False, encoding="utf-8")
+            df.to_csv(f"32-Tarjetas_{index}_Club.csv", index=False, encoding="utf-8")
         except ValueError as e:
             print(f"Error creating DataFrame for table {index}: {e}")
 else:
