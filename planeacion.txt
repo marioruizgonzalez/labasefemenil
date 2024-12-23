@@ -1,0 +1,19 @@
++estadistica historica
++tabla de ofensivas y defensivas
++tabla general-----------------------------contrastando rendimiento
+################################################################
++tabla de goleo----------------------------goleadoras por equipo
+################################################################
++tabla de flairplay
++tabla de tarjeta de por jugadores---------tarjetas por equipo
++tabla de tarjetas por jugadores-----------tarjetas por jugadora
+################################################################
++tabla participacion menores---------------equipos que inpulsan la juventud
+################################################################
+------
+juadoras mas valoradas , minutos jugadores
+-------
+partidos
+informe albitral
+minuto a minuto
+
