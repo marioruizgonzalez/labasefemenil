@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import csv
 
 # Setup the Selenium WebDriver
-geckodriver_path = "/Users/marioruiz/Documents/GitHub/labasefemenil/geckodriver"
+geckodriver_path = "/Users/marioruiz/Documents/GitHub/labasefemenil/driver/geckodriver_mac"
 output_dir = "/Users/marioruiz/Documents/GitHub/labasefemenil/salidas_mac"
 service = Service(geckodriver_path)
 driver = webdriver.Firefox(service=service)
@@ -37,11 +37,5 @@ def extract_and_save_data(filename):
     print(f"Data extracted and saved to {filename}")
 
 extract_and_save_data('2-GoleoFaseFinal.csv')
-
-# Wait 10 seconds to observe any changes
-time.sleep(10)
-
-# Re-extract and save data to verify changes
-extract_and_save_data('2-GoleoFaseFinal2.csv')
 
 driver.quit()

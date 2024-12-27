@@ -7,7 +7,7 @@ import pandas as pd
 import time
 
 # Configuración del WebDriver para Firefox
-geckodriver_path = "/Users/marioruiz/Documents/GitHub/labasefemenil/geckodriver"  # Ruta del geckodriver
+geckodriver_path = "/Users/marioruiz/Documents/GitHub/labasefemenil/driver/geckodriver_mac"  # Ruta del geckodriver
 output_dir = "/Users/marioruiz/Documents/GitHub/labasefemenil/salidas_mac"
 service = Service(geckodriver_path)
 driver = webdriver.Firefox(service=service)
