@@ -1,4 +1,4 @@
-Temporada, Torneo, Tipo, Pos,Jugador,Club,G,MJ,ANOTA CADA,NACIONALIDAD
+temporada,torneo,fase,posicion,jugador,club,goles,mj,anota_cada,nacionalidad
 2024-2025,Apertura, FaseFinal, 1, Lucía García,Rayadas,3,477,159.00 min,Español
 2024-2025,Apertura, FaseFinal, 1, Maricarmen Reyes,Tigres,3,257,85.67 min,Mexicano
 2024-2025,Apertura, FaseFinal, 1, Chrestinah Thembi Kgatlana,Tigres,3,505,168.33 min,Sudafricano
