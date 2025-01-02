@@ -1,17 +1,17 @@
-Club,Total_Tarjetas,PorcentajexClub,PromedioxMinutos,PromedioxPartido
-Cruz Azul,3,12.00,510.00,0.18
-FC Juarez,3,12.00,510.00,0.18
-Mazatlan FC,3,12.00,510.00,0.18
-Leon,2,8.00,765.00,0.12
-Necaxa,2,8.00,765.00,0.12
-Puebla,2,8.00,765.00,0.12
-America,1,4.00,1530.00,0.06
-Atlas,1,4.00,1530.00,0.06
-Pachuca,1,4.00,1530.00,0.06
-Pumas,1,4.00,1530.00,0.06
-Queretaro,1,4.00,1530.00,0.06
-Rayadas,1,4.00,1530.00,0.06
-Santos Laguna,1,4.00,1530.00,0.06
-Tigres,1,4.00,1530.00,0.06
-Tijuana,1,4.00,1530.00,0.06
-Toluca,1,4.00,1530.00,0.06
+Temporada, Torneo, Tipo, tarjeta, Club,Total_Tarjetas,PorcentajexClub,PromedioxMinutos,PromedioxPartido
+2024-2025,Apertura,FaseFinal, amarillas, Cruz Azul,3,12.00,510.00,0.18
+2024-2025,Apertura,FaseFinal, amarillas, FC Juarez,3,12.00,510.00,0.18
+2024-2025,Apertura,FaseFinal, amarillas, Mazatlan FC,3,12.00,510.00,0.18
+2024-2025,Apertura,FaseFinal, amarillas, Leon,2,8.00,765.00,0.12
+2024-2025,Apertura,FaseFinal, amarillas, Necaxa,2,8.00,765.00,0.12
+2024-2025,Apertura,FaseFinal, amarillas, Puebla,2,8.00,765.00,0.12
+2024-2025,Apertura,FaseFinal, amarillas, America,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Atlas,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Pachuca,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Pumas,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Queretaro,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Rayadas,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Santos Laguna,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Tigres,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Tijuana,1,4.00,1530.00,0.06
+2024-2025,Apertura,FaseFinal, amarillas, Toluca,1,4.00,1530.00,0.06

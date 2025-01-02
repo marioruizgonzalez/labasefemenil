@@ -1,30 +1,30 @@
-Pos,Jugador,Club,G,MJ,ANOTA CADA,NACIONALIDAD
-1, Lucía García,Rayadas,3,477,159.00 min,Español
-1, Maricarmen Reyes,Tigres,3,257,85.67 min,Mexicano
-1, Chrestinah Thembi Kgatlana,Tigres,3,505,168.33 min,Sudafricano
-1, Lizbeth Jacqueline Ovalle,Tigres,3,522,174.00 min,Mexicano
-5, Diana Laura García,Rayadas,2,507,253.50 min,Mexicano
-6, Rebeca Bernal,Rayadas,2,540,270.00 min,Mexicano
-7, Angelique Montserrat Saldivar,América,2,101,50.50 min,Mexicano
-8, Priscila Flor Da Silva,América,2,162,81.00 min,Brasileño
-9, Sarah Jacquelyn Luebbert,América,2,255,127.50 min,Estadounidense
-10, Verónica Charlyn Corral,Pachuca,2,360,180.00 min,Mexicano
-11, Christian Carolina Jaramillo,Guadalajara,2,135,67.50 min,Mexicano
-12, Tanna Sánchez,Rayadas,1,142,142.00 min,Mexicano
-13, Katty Martínez,Rayadas,1,176,176.00 min,Mexicano
-14, Jermaine Seoposenwe,Rayadas,1,299,299.00 min,Sudafricano
-15, Christina Marie Burkenroad,Rayadas,1,387,387.00 min,Mexicano
-16, Joseline Montoya,Tigres,1,39,39.00 min,Mexicano
-17, Sandra Stephany Mayor,Tigres,1,213,213.00 min,Mexicano
-18, Ana Inés Costa Mendes,Tigres,1,383,383.00 min,Portugués
-19, Greta Alejandra Espinoza,Tigres,1,540,540.00 min,Mexicano
-20, Karen Irasema Luna,América,1,250,250.00 min,Mexicano
-21, Scarlett Nefer Camberos,América,1,285,285.00 min,Mexicano
-22, Irene Guerrero,América,1,329,329.00 min,Español
-23, Chidinma Nkeruka Okeke,América,1,340,340.00 min,Nigeriano
-24, Andrea Pereira,Pachuca,1,315,315.00 min,Español
-25, Dayana Milan Martin,FC Juárez,1,24,24.00 min,Estadounidense
-26, Prisca Chilufya,FC Juárez,1,179,179.00 min,Zambiano
-27, Esbeydi Viridiana Salazar,Guadalajara,1,90,90.00 min,Mexicano
-28, Stephanie Mariana Ribeiro,Pumas,1,167,167.00 min,Estadounidense
-29, Cinthya Peraza,Toluca,1,179,179.00 min,Mexicano
+Temporada, Torneo, Tipo, Pos,Jugador,Club,G,MJ,ANOTA CADA,NACIONALIDAD
+2024-2025,Apertura, FaseFinal, 1, Lucía García,Rayadas,3,477,159.00 min,Español
+2024-2025,Apertura, FaseFinal, 1, Maricarmen Reyes,Tigres,3,257,85.67 min,Mexicano
+2024-2025,Apertura, FaseFinal, 1, Chrestinah Thembi Kgatlana,Tigres,3,505,168.33 min,Sudafricano
+2024-2025,Apertura, FaseFinal, 1, Lizbeth Jacqueline Ovalle,Tigres,3,522,174.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 5, Diana Laura García,Rayadas,2,507,253.50 min,Mexicano
+2024-2025,Apertura, FaseFinal, 6, Rebeca Bernal,Rayadas,2,540,270.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 7, Angelique Montserrat Saldivar,América,2,101,50.50 min,Mexicano
+2024-2025,Apertura, FaseFinal, 8, Priscila Flor Da Silva,América,2,162,81.00 min,Brasileño
+2024-2025,Apertura, FaseFinal, 9, Sarah Jacquelyn Luebbert,América,2,255,127.50 min,Estadounidense
+2024-2025,Apertura, FaseFinal, 10, Verónica Charlyn Corral,Pachuca,2,360,180.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 11, Christian Carolina Jaramillo,Guadalajara,2,135,67.50 min,Mexicano
+2024-2025,Apertura, FaseFinal, 12, Tanna Sánchez,Rayadas,1,142,142.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 13, Katty Martínez,Rayadas,1,176,176.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 14, Jermaine Seoposenwe,Rayadas,1,299,299.00 min,Sudafricano
+2024-2025,Apertura, FaseFinal, 15, Christina Marie Burkenroad,Rayadas,1,387,387.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 16, Joseline Montoya,Tigres,1,39,39.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 17, Sandra Stephany Mayor,Tigres,1,213,213.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 18, Ana Inés Costa Mendes,Tigres,1,383,383.00 min,Portugués
+2024-2025,Apertura, FaseFinal, 19, Greta Alejandra Espinoza,Tigres,1,540,540.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 20, Karen Irasema Luna,América,1,250,250.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 21, Scarlett Nefer Camberos,América,1,285,285.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 22, Irene Guerrero,América,1,329,329.00 min,Español
+2024-2025,Apertura, FaseFinal, 23, Chidinma Nkeruka Okeke,América,1,340,340.00 min,Nigeriano
+2024-2025,Apertura, FaseFinal, 24, Andrea Pereira,Pachuca,1,315,315.00 min,Español
+2024-2025,Apertura, FaseFinal, 25, Dayana Milan Martin,FC Juárez,1,24,24.00 min,Estadounidense
+2024-2025,Apertura, FaseFinal, 26, Prisca Chilufya,FC Juárez,1,179,179.00 min,Zambiano
+2024-2025,Apertura, FaseFinal, 27, Esbeydi Viridiana Salazar,Guadalajara,1,90,90.00 min,Mexicano
+2024-2025,Apertura, FaseFinal, 28, Stephanie Mariana Ribeiro,Pumas,1,167,167.00 min,Estadounidense
+2024-2025,Apertura, FaseFinal, 29, Cinthya Peraza,Toluca,1,179,179.00 min,Mexicano

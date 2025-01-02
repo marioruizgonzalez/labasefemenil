@@ -1,89 +1,95 @@
--- Table for "2-GoleoFaseFinal"
-CREATE TABLE lbf_Goleo_Fase_Final (
-    Pos VARCHAR(10),
-    Jugador VARCHAR(100),
-    Club VARCHAR(50),
-    G INT,
-    MJ INT,
-    ANOTA_CADA VARCHAR(20),
-    NACIONALIDAD VARCHAR(50)
+create table lbf_goleo (
+    temporada varchar(100),
+    torneo varchar(100),
+    fase varchar(100),
+    posicion varchar(10),
+    jugador varchar(100),
+    club varchar(100),
+    goles int,
+    mj int,
+    anota_cada varchar(20),
+    nacionalidad varchar(50)
 );
 
--- Table for "America"
-CREATE TABLE lbf_tarjetas_x_jugador (
-    IDAFLDDRVD VARCHAR(10),
-    NUI VARCHAR(10),
-    NOMBRE VARCHAR(100),
-    TA INT,
-    TA_REGLAMENTO INT,
-    TR INT,
-    TRPC INT
+create table lbf_tarjetas_x_jugadora (
+    temporada varchar(100),
+    torneo varchar(100),
+    club varchar(100),
+    idaflddrvd varchar(10),
+    nui varchar(10),
+    nombre varchar(100),
+    ta int,
+    ta_reglamento int,
+    tr int,
+    trpc int
 );
 
--- Table for "1-EstHist_2024-2025_Clausura"
-CREATE TABLE lbf_Historical_Stats (
-    Temporada VARCHAR(20),
-    Torneo VARCHAR(20),
-    Pos INT,
-    Club VARCHAR(50),
-    JJ INT,
-    JG INT,
-    JE INT,
-    JP INT,
-    GF INT,
-    GC INT,
-    Dif INT,
-    PTS INT,
-    JJ2 INT,
-    JG2 INT,
-    JE2 INT,
-    JP2 INT,
-    GF2 INT,
-    GC2 INT,
-    Dif2 INT,
-    PTS2 INT,
-    JJ3 INT,
-    JG3 INT,
-    JE3 INT,
-    JP3 INT,
-    GF3 INT,
-    GC3 INT,
-    Dif3 INT,
-    PTS3 INT
+create table lbf_tarjetas_temporada (
+    temporada varchar(20) not null,
+    torneo varchar(20) not null,
+    tipo varchar(20) not null,
+    tarjeta varchar(20) not null,
+    club varchar(50) not null,
+    total_tarjetas int not null,
+    porcentaje_x_club numeric(5, 2) not null,
+    promedio_x_minutos numeric(5, 2) not null,
+    promedio_x_partido numeric(5, 2) not null
 );
 
--- Table for "30-FairPlay"
-CREATE TABLE lbf_Fair_Play (
-    CLUB VARCHAR(50),
-    TARJETA_AMARILLA INT,
-    PUNTOS_TARJETA_AMARILLA INT,
-    TARJETA_ROJA_X_SEGUNDA_AMARILLA INT,
-    PUNTOS_TARJETA_ROJA_X_2DA_AMARILLA INT,
-    TARJETA_ROJA_DIRECTA INT,
-    PUNTOS_TARJETA_ROJA_DIRECTA INT,
-    TOTAL_PUNTOS INT
+create table lbf_historical_stats (
+    temporada varchar(20),
+    torneo varchar(20),
+    posicion int,
+    club varchar(50),
+    jj int,
+    jg int,
+    je int,
+    jp int,
+    gf int,
+    gc int,
+    dif int,
+    pts int,
+    jj2 int,
+    jg2 int,
+    je2 int,
+    jp2 int,
+    gf2 int,
+    gc2 int,
+    dif2 int,
+    pts2 int,
+    jj3 int,
+    jg3 int,
+    je3 int,
+    jp3 int,
+    gf3 int,
+    gc3 int,
+    dif3 int,
+    pts3 int
 );
 
--- Table for "44-ParticipacionMenores"
--- Cambiamos la segunda columna "Minutos_Acumulados" a otro nombre para evitar duplicados
-CREATE TABLE lbf_Participacion_Menores (
-    Club VARCHAR(50),
-    Menores_Alineadas INT,
-    Minutos INT,
-    Menores_Seleccionadas INT,
-    Minutos_Acumulados INT,
-    Menores_que_acumularon INT,
-    Minutos_Acumulados_2 INT,  -- <--- Se renombra aquí
-    Minutos_al_Reglamento INT,
-    Minutos_por_Cumplir VARCHAR(20)
+create table lbf_fair_play (
+    temporada varchar(100),
+    torneo varchar(100),
+    club varchar(100),
+    tarjeta_amarilla int,
+    puntos_tarjeta_amarilla int,
+    tarjeta_roja_x_segunda_amarilla int,
+    puntos_tarjeta_roja_x_2da_amarilla int,
+    tarjeta_roja_directa int,
+    puntos_tarjeta_roja_directa int,
+    total_puntos int
 );
 
-CREATE TABLE lbf_Goleo_Temporada (
-    Temporada VARCHAR(20),
-    Torneo VARCHAR(20),
-    Pos INT,
-    Jugador VARCHAR(100),
-    Club VARCHAR(50),
-    G INT,
-    MJ INT
+create table lbf_participacion_menores (
+    temporada varchar(100),
+    torneo varchar(100),
+    club varchar(50),
+    menores_alineadas int,
+    minutos int,
+    menores_seleccionadas int,
+    minutos_acumulados int,
+    menores_que_acumularon int,
+    minutos_acumulados_2 int,  
+    minutos_al_reglamento int,
+    minutos_por_cumplir varchar(20)
 );

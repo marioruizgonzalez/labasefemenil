@@ -1,9 +1,9 @@
-Club,Total_Tarjetas,PorcentajexClub,PromedioxMinutos,PromedioxPartido
-Tigres,10,22.73,153.00,0.59
-Pachuca,8,18.18,191.25,0.47
-Rayadas,8,18.18,191.25,0.47
-America,7,15.91,218.57,0.41
-Guadalajara,4,9.09,382.50,0.24
-FC Juarez,3,6.82,510.00,0.18
-Pumas,2,4.55,765.00,0.12
-Toluca,2,4.55,765.00,0.12
+Temporada, Torneo, Tipo, tarjeta, Club,Total_Tarjetas,PorcentajexClub,PromedioxMinutos,PromedioxPartido
+2024-2025,Apertura,regular, rojas,Tigres,10,22.73,153.00,0.59
+2024-2025,Apertura,regular, rojas,Pachuca,8,18.18,191.25,0.47
+2024-2025,Apertura,regular, rojas,Rayadas,8,18.18,191.25,0.47
+2024-2025,Apertura,regular, rojas,America,7,15.91,218.57,0.41
+2024-2025,Apertura,regular, rojas,Guadalajara,4,9.09,382.50,0.24
+2024-2025,Apertura,regular, rojas,FC Juarez,3,6.82,510.00,0.18
+2024-2025,Apertura,regular, rojas,Pumas,2,4.55,765.00,0.12
+2024-2025,Apertura,regular, rojas,Toluca,2,4.55,765.00,0.12

@@ -1,18 +1,18 @@
-﻿IDAFLDDRVD,NUI,NOMBRE,TA,TA_REGLAMENTO,TR,TRPC
-150876,145205,Linda Ruth Bravo ,5,4,1,0
-125503,124405,Yanin Madrid López Lira,4,4,0,0
-139175,137081,Daniela Calderón García,4,4,0,0
-159963,152124,Lixy María Rodríguez Zamora,3,3,0,0
-164105,157506,Destinee Noel Manzo Paolinetti,3,3,0,0
-165736,158778,Vianney Alemán Ramirez,3,3,0,0
-129995,128474,Vanessa Guadalupe López Maldonado,2,2,0,0
-171796,163130,Fernanda Paz Pinilla Roa,2,1,1,0
-12981,12990,Alejandro Corona Cervantes,1,1,0,0
-63123,63575,César Hugo Andrade Colmenero,1,1,0,0
-124840,123717,Karla Daniela Zempoalteca Hernández,1,1,0,0
-125116,124389,Brenda Esmeralda Díaz Ojeda,1,1,0,0
-150309,144876,Fedra Renatta Cota Muñoz,1,1,0,0
-158169,151985,Mayalu Ann Rausch Tamayo,1,1,0,0
-165726,158776,Itzell Alemán Ramirez,1,1,0,0
-171829,163454,Ysaura Candelaria Viso Garrido,1,1,0,0
-14065,14074,Edwin Santibáñez Noé,0,0,1,0
+﻿Temporada, Torneo, Club,IDAFLDDRVD,NUI,NOMBRE,TA,TA_REGLAMENTO,TR,TRPC
+2024-2025,Apertura, León,150876,145205,Linda Ruth Bravo ,5,4,1,0
+2024-2025,Apertura, León,125503,124405,Yanin Madrid López Lira,4,4,0,0
+2024-2025,Apertura, León,139175,137081,Daniela Calderón García,4,4,0,0
+2024-2025,Apertura, León,159963,152124,Lixy María Rodríguez Zamora,3,3,0,0
+2024-2025,Apertura, León,164105,157506,Destinee Noel Manzo Paolinetti,3,3,0,0
+2024-2025,Apertura, León,165736,158778,Vianney Alemán Ramirez,3,3,0,0
+2024-2025,Apertura, León,129995,128474,Vanessa Guadalupe López Maldonado,2,2,0,0
+2024-2025,Apertura, León,171796,163130,Fernanda Paz Pinilla Roa,2,1,1,0
+2024-2025,Apertura, León,12981,12990,Alejandro Corona Cervantes,1,1,0,0
+2024-2025,Apertura, León,63123,63575,César Hugo Andrade Colmenero,1,1,0,0
+2024-2025,Apertura, León,124840,123717,Karla Daniela Zempoalteca Hernández,1,1,0,0
+2024-2025,Apertura, León,125116,124389,Brenda Esmeralda Díaz Ojeda,1,1,0,0
+2024-2025,Apertura, León,150309,144876,Fedra Renatta Cota Muñoz,1,1,0,0
+2024-2025,Apertura, León,158169,151985,Mayalu Ann Rausch Tamayo,1,1,0,0
+2024-2025,Apertura, León,165726,158776,Itzell Alemán Ramirez,1,1,0,0
+2024-2025,Apertura, León,171829,163454,Ysaura Candelaria Viso Garrido,1,1,0,0
+2024-2025,Apertura, León,14065,14074,Edwin Santibáñez Noé,0,0,1,0
