@@ -1,19 +1,144 @@
-+estadistica historica
-+tabla de ofensivas y defensivas
-+tabla general-----------------------------contrastando rendimiento
-################################################################
-+tabla de goleo----------------------------goleadoras por equipo
-################################################################
-+tabla de flairplay
-+tabla de tarjeta de por jugadores---------tarjetas por equipo
-+tabla de tarjetas por jugadores-----------tarjetas por jugadora
-################################################################
-+tabla participacion menores---------------equipos que inpulsan la juventud
-################################################################
-------
-juadoras mas valoradas , minutos jugadores
--------
-partidos
-informe albitral
-minuto a minuto
+1. Comparación de Goleadoras por Temporada
+Muestra las máximas goleadoras por temporada y torneo.
 
+sql
+Copy code
+SELECT 
+    temporada,
+    torneo,
+    jugador,
+    club,
+    SUM(goles) AS total_goles
+FROM 
+    lbf_goleo
+GROUP BY 
+    temporada, torneo, jugador, club
+ORDER BY 
+    temporada ASC, total_goles DESC;
+
+3. Eficiencia de Goleo
+Muestra la relación entre minutos jugados y goles anotados por jugadora.
+
+sql
+Copy code
+SELECT 
+    jugador,
+    club,
+    SUM(goles) AS total_goles,
+    SUM(mj) AS total_minutos,
+    ROUND((SUM(mj) / NULLIF(SUM(goles), 0)), 2) AS minutos_por_gol
+FROM 
+    lbf_goleo
+GROUP BY 
+    jugador, club
+ORDER BY 
+    minutos_por_gol ASC;
+
+6. Menos Participación de Menores por Club
+Muestra los minutos acumulados por menores alineadas en cada club.
+
+sql
+Copy code
+SELECT 
+    temporada,
+    torneo,
+    club,
+    SUM(minutos_acumulados_2) AS minutos_totales_menores,
+    SUM(minutos_al_reglamento) AS minutos_por_reglamento
+FROM 
+    lbf_participacion_menores
+GROUP BY 
+    temporada, torneo, club
+ORDER BY 
+    temporada ASC, minutos_totales_menores DESC;
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1. Clubes con Más Tarjetas por Minuto Jugado
+sql
+Copy code
+SELECT 
+    club,
+    SUM(total_tarjetas) AS total_tarjetas,
+    SUM(promedio_x_minutos) AS minutos_totales,
+    (SUM(total_tarjetas) / SUM(promedio_x_minutos)) AS tarjetas_por_minuto
+FROM 
+    lbf_tarjetas_club
+GROUP BY 
+    club
+ORDER BY 
+    tarjetas_por_minuto DESC;
+2. Los Clubes Menos Ganadores en la Historia
+sql
+Copy code
+SELECT 
+    club,
+    SUM(jg) AS total_victorias
+FROM 
+    lbf_historical_stats
+GROUP BY 
+    club
+ORDER BY 
+    total_victorias ASC
+LIMIT 10; -- Muestra los 10 menos ganadores
+3. Jugadoras con Mayor Ineficiencia Goleadora
+sql
+Copy code
+SELECT 
+    jugador,
+    club,
+    SUM(mj) AS minutos_totales,
+    SUM(goles) AS goles_totales,
+    (SUM(mj) / NULLIF(SUM(goles), 0)) AS minutos_por_gol
+FROM 
+    lbf_goleo
+GROUP BY 
+    jugador, club
+HAVING 
+    SUM(goles) > 0
+ORDER BY 
+    minutos_por_gol DESC
+LIMIT 10; -- Muestra las 10 jugadoras menos eficientes
+4. Evolución de Clubes con Menos Goles a Favor
+sql
+Copy code
+SELECT 
+    temporada,
+    club,
+    SUM(gf) AS goles_a_favor
+FROM 
+    lbf_historical_stats
+GROUP BY 
+    temporada, club
+ORDER BY 
+    goles_a_favor ASC;
+5. Ranking de Clubes con Más Tarjetas Rojas
+sql
+Copy code
+SELECT 
+    club,
+    SUM(tarjeta_roja_x_segunda_amarilla + tarjeta_roja_directa) AS total_tarjetas_rojas
+FROM 
+    lbf_fair_play
+GROUP BY 
+    club
+ORDER BY 
+    total_tarjetas_rojas DESC
+LIMIT 10; -- Muestra los 10 clubes con más tarjetas rojas
+6. Clubes con Mayor Diferencia de Goles Negativa
+sql
+Copy code
+SELECT 
+    club,
+    SUM(gf - gc) AS diferencia_de_goles
+FROM 
+    lbf_historical_stats
+GROUP BY 
+    club
+HAVING 
+    SUM(gf - gc) < 0
+ORDER BY 
+    diferencia_de_goles ASC
+LIMIT 10; -- Muestra los 10 clubes con mayor diferencia negativa
