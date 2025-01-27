@@ -6,7 +6,7 @@ Copy code
 SELECT 
     temporada,
     torneo,
-    jugador,
+    jugador,    
     club,
     SUM(goles) AS total_goles
 FROM 
